@@ -1,0 +1,230 @@
+@charset "UTF-8";
+@import url("http://hanggu.dothome.co.kr/200528/cssReset/reset.css");
+
+div#wrap {
+	width: 860px;
+
+	margin: 0 auto;
+}
+
+header#header {
+	height: 60px;
+}
+
+div#date {
+	width: 400px;
+
+	margin-top: 10px;
+	float: left;
+}
+
+div#date span {
+	font-size: 13px;
+}
+
+div#date span:first-child {
+	font-weight: bold;
+	color: #4f7978;
+}
+
+div#date span:nth-child(2) {
+	font-weight: bold;
+}
+
+div#date input {
+	width: 120px;
+	padding: 5px;
+}
+
+header#header ul {
+	width: 450px;
+	list-style: none;
+ 	padding-left: 0;
+
+	margin-top: 0;
+	float: right;
+}
+
+header#header ul li {
+	width: 60px;
+	text-align: center;
+	padding: 5px 4px;
+	margin: 10px 5px ;
+	background-color: #3d7b10;
+	border-radius: 4px;
+	float: right;
+}
+
+header#header ul li a{
+	color: #fff;
+}
+
+div#search {
+	height: 100px;
+	border: 1px solid #ccc;
+	border-top: 2px solid #097788;
+	margin-bottom: 10px;
+
+	background-color: #f9f9f9;
+	position: relative;
+}
+
+div#search select {
+	width: 130px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 11.1%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div#search input {
+	width: 560px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	position: absolute;
+	left: 52.6%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div#search input::placeholder {
+	color: #09768b;
+	text-align: center;
+}
+
+div#search button {
+	width: 80px;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	background-color: #09768b;
+	position: absolute;
+	left: 91%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+div#info {
+	height: 130px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-top: 2px solid #097788;
+	margin-bottom: 14px;
+	background-color: #f9f9f9;
+}
+
+div#info p {
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+div#info ul {
+	color: #555;
+	list-style: none;
+	font-size: 13px;
+	padding-left: 18px;
+}
+
+div#info ul li {
+	margin: 8px;
+}
+
+main#bbs {
+	width: 860px;
+}
+
+main#bbs span {
+	font-size: 14px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+main#bbs table {
+	width: 860px;
+	font-size: 14px;
+	text-align: center;
+	border-top: 2px solid #3d7b10;
+	border-collapse: collapse;
+	margin-bottom: 18px;
+}
+
+main#bbs table th {
+	padding: 10px;
+}
+
+main#bbs table tr td {
+	color: #555;
+	border: 1px solid #ccc;
+	padding: 10px;
+	border-right: none;
+	border-left: none;
+}
+
+footer#footer {
+	width: 860px;
+}
+
+#footer ul {
+	width: 600px;
+	list-style: none;
+	text-align: center;
+	padding-left: 110px;
+
+	display: flex;
+}
+
+#footer ul li {
+	width: 30px;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	padding: 5px;
+	flex: 1;
+}
+
+#footer ul li:first-child a {
+	font-size: 20px;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	padding: 5px 14px;
+}
+
+
+#footer ul li:nth-child(2) {
+	border: 1px solid #ccc;
+	background-color: #3d7b10;
+}
+
+#footer ul li:nth-child(2) a {
+	color: #fff;
+}
+
+#footer ul li:nth-child(12) a {
+	font-size: 20px;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	padding: 5px 16px;
+}
+
+#footer ul li:last-child a {
+	font-size: 20px;
+	border: 1px solid #ccc;
+	font-weight: bold;
+	padding: 5px 14px;
+}
+
+footer#footer button {
+	width: 130px;
+	color: #fff;
+	padding: 10px 30px;
+	border: none;
+	background-color: #3d7b10;
+	position: relative;
+	left: 730px;
+}
+
